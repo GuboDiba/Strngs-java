@@ -1,17 +1,29 @@
 let a="beautiful";
-console.log(a[5].a[6],[7],a[8]);
+console.log(a.length);
+console.log(a[-4])
 
-String.prototype.insert=function(index,string){
-    if(index>0){
-        return Food.substring(0,index) + string + food.substring(index,food.length);
-
-    }
-    return string + food
-}
-
-var food ="i was feeling hungry today";
-food=food.insert(5,"eat");
-console.log([food]);
+const food ="i was feeling hungry today";
+const newstring="eat";
+console.log(food[4]);
+const result = 'I was ${newstring} feeling hungry today';
+console.log(result);
 
 const story="the quick brown fox jumps over the lazy dog";
-let count =(story.match(/fox/gg))||[]).length;
+console.log(story.match(/the/g).length);
+console.log(story.match(/brown/g).length);
+const string5 ="we are now going to school";
+console.log(string5.includes("now"));
+console.log(string5.includes("sitting"));
+
+let s
+="wonderful"
+console.log(v.toUpperCase());
+
+let v="amazing";
+let t="BEneath";
+console.log(v.toLocaleLowerCase());
+console.log(t.toLocaleLowerCase());
+
+let d="A beautiful wedding";
+    d=d.split("").map(([first,...rest])=>firstchar.toUpperCase()+rest.join("").toLowerCase()).join("");
+    console.log(d);
